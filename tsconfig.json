@@ -20,9 +20,11 @@
     ],
     "paths": {
       "test-lib-prj": [
+        "dist/test-lib-prj",
         "dist/test-lib-prj"
       ],
       "test-lib-prj/*": [
+        "dist/test-lib-prj/*",
         "dist/test-lib-prj/*"
       ]
     }

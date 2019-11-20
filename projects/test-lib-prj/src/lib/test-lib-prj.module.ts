@@ -1,13 +1,12 @@
 import { NgModule } from '@angular/core';
 import { TestLibPrjComponent } from './test-lib-prj.component';
-import { CardComponent } from './components/card/card.component';
 
-const components = [TestLibPrjComponent, CardComponent];
+
 
 @NgModule({
-  declarations: [...components],
+  declarations: [TestLibPrjComponent],
   imports: [
   ],
-  exports: [...components]
+  exports: [TestLibPrjComponent]
 })
 export class TestLibPrjModule { }

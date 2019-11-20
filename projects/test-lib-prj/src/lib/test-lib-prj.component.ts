@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'lib-test-lib-prj',
   template: `
     <p>
-      sono il componente della libreria
+     Sono il componente di test
     </p>
   `,
   styles: []
